@@ -1,5 +1,5 @@
 import { INCREMENT, DECREMENT } from './actions'
-import { createStore } from 'redux'
+import { createStore } from '../node_modules/redux/dist/redux'
 
 const counter = (state = 0, action) => {
   switch (action.type) {
